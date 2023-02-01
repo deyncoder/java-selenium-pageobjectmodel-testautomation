@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;selenium-bdd-framework&apos; to &apos;selenium-bdd-cucumber&apos;" description="Rename resource &apos;selenium-bdd-framework&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/selenium-bdd-framework" name="selenium-bdd-cucumber" stamp="1675268711477" updateReferences="true"/>
+</session>

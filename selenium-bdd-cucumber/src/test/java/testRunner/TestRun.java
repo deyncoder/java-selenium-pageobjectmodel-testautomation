@@ -1,0 +1,19 @@
+package testRunner;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+	(
+			features=".//Features/Login.feature", // feature path
+			glue="stepDefinitions",	// pkg that contains the steps
+			dryRun=false, // cross check whether every step is having corresponding methods/step definition implemented or not
+			monochrome=true,  // remove unnecessary characters in console window for clearer output
+			plugin= {"pretty", 
+					 "html:test-output"} // generate report
+	)
+public class TestRun {
+	
+}
